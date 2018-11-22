@@ -5,11 +5,13 @@ Implementation of [Oracle Ravello Rest API](https://www.ravellosystems.com/ravel
 ## Usage
 
 ```java
-RavelloClient client = new RavelloClient(new RavelloConfig("userName","password"));
+RavelloClient client = new RavelloClient(new RavelloConfig("username","password"));
 ```
 
 ## Build
-```gradlew build publishToMavenLocal```
+```bash
+gradlew build publishToMavenLocal
+```
 
 ## Endpoints implemented
 ### Applications
