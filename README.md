@@ -3,7 +3,11 @@
 Implementation of [Oracle Ravello Rest API](https://www.ravellosystems.com/ravello-api-doc/) in Java
 
 ## Usage
-
+Add to you gradle dependencies:
+```gradle
+compile group: 'com.firedome', name: 'ravello-java-sdk', version: '0.0.1-SNAPSHOT'
+```
+Init the `RavelloClient`:
 ```java
 RavelloClient client = new RavelloClient(new RavelloConfig("username","password"));
 ```
